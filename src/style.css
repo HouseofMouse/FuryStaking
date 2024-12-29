@@ -1,0 +1,62 @@
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected) a {
+  color: white;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu > .ant-menu-item:hover,
+.ant-menu > .ant-menu-submenu:hover,
+.ant-menu > .ant-menu-item-active,
+.ant-menu > .ant-menu-submenu-active,
+.ant-menu > .ant-menu-item-open{
+  background-color: rgb(221, 238, 236) !important;
+  border-bottom: 1px solid rgb(45, 125, 23);
+  border: 2px solid rgb(231, 225, 225);
+  border-radius: 15px;
+  color: rgb(104, 138, 146);
+}
+
+.ant-menu > .ant-menu-submenu-open,
+.ant-menu > .ant-menu-item-selected,
+.ant-menu > .ant-menu-item:not(.ant-menu-item-selected) {
+  background-color: rgb(0, 0, 0) !important;
+  border-bottom: 2px solid rgb(223, 226, 225);
+  color: rgb(225, 210, 210);
+}
+
+
+.ant-menu > .ant-menu-submenu-selected {
+  color: rgb(92, 70, 89) !important;
+  border: 2px solid white;
+  border-radius: 15px;
+  color: rgb(241, 239, 239);
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: 2px solid #9ac9bd !important;
+  color: #a69aa5 !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a,
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  color: #7fbd9e !important;
+}
+
+.ant-modal-content {
+  overflow: auto;
+  border-radius: 1rem;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected.customclass {
+  color: #603060 !important;
+} 
+
+.ant-menu{
+  background: black;
+  color: white
+}
